@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-farouk-jamali",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CV web de Farouk Jamali",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "icones": "node scripts/generer-icones.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "5.7.0",
+    "tailwindcss": "4.3.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
